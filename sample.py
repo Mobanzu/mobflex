@@ -19,7 +19,6 @@ clientPoll = OEPoll(client)
 mobflex = Mobanzu(client)
 clientMID = client.getProfile().mid
 loop = asyncio.get_event_loop()
-botStart = time.time()
 
 def allow_liff():
 	url = 'https://access.line.me/dialog/api/permissions'
