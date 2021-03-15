@@ -1,3 +1,6 @@
+![Copyright](https://img.shields.io/badge/Copyright-Mobanzu-ff0000.svg)
+![Build](https://img.shields.io/badge/Build-Passed-00ccff.svg)
+
 <p align="center">
 <img src="https://github.com/hellterhead/mobflex/blob/main/assets/helpMenu.png" width=640>
 <img src="https://github.com/hellterhead/mobflex/blob/main/assets/profileMenu.png" width=640>
