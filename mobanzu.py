@@ -12,17 +12,6 @@ class Mobanzu(threading.Thread):
     def __init__(self, client):
         self.client = client
 
-    def allow_liff(self):
-	    url = 'https://access.line.me/dialog/api/permissions'
-	    data = {'on': ['P', 'CM'], 'off': []}
-	    headers = {
-	        'X-Line-Access': self.client.authToken,
-	        'X-Line-Application': self.client.server.APP_NAME,
-	        'X-Line-ChannelId': 'CHANNEL_LIFF_ID', #USE_YOUR_CHANNEL_LIFF_ID
-	        'Content-Type': 'application/json'
-	    }
-	    requests.post(url, json=data, headers=headers)
-
     def sendTemplate(self, to, data):
         drex = LiffChatContext(to)
         mobz = LiffContext(chat=drex)
