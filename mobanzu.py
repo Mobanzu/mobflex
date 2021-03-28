@@ -12,24 +12,8 @@ class Mobanzu(threading.Thread):
     def __init__(self, client):
         self.client = client
 
-    def sendTemplate(self, to, data):
-        drex = LiffChatContext(to)
-        mobz = LiffContext(chat=drex)
-        view = LiffViewRequest('LIFF_ID', mobz) #USE_YOUR_LIFF_ID
-        token = self.client.liff.issueLiffView(view)
-        url = 'https://api.line.me/message/v3/share'
-        headers = {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer %s' % token.accessToken
-        }
-        data = {"messages": [data]}
-        requests.post(url, headers=headers, data=json.dumps(data))
-
-    def helpMenu(self, to, picture, name, status):
+    def helpMenu(self, picture, name, status):
         data = {
-"type": "flex",
-"altText": "Help Menu",
-"contents": {
   "type": "bubble",
   "body": {
     "type": "box",
@@ -327,14 +311,11 @@ class Mobanzu(threading.Thread):
     "paddingAll": "0px",
     "height": "434.2px"
   }
-}}
-        self.sendTemplate(to, data)
+}
+        return data
 
-    def profileMenu(self, to):
+    def profileMenu(self):
         data = {
-"type": "flex",
-"altText": "Profile Menu",
-"contents": {
   "type": "bubble",
   "body": {
     "type": "box",
@@ -570,14 +551,11 @@ class Mobanzu(threading.Thread):
     "paddingAll": "0px",
     "height": "418px"
   }
-}}
-        self.sendTemplate(to, data)
+}
+        return data
 
-    def groupMenu(self, to):
+    def groupMenu(self):
         data = {
-"type": "flex",
-"altText": "Group Menu",
-"contents": {
   "type": "bubble",
   "body": {
     "type": "box",
@@ -812,14 +790,11 @@ class Mobanzu(threading.Thread):
     "paddingAll": "0px",
     "height": "463px"
   }
-}}
-        self.sendTemplate(to, data)
+}
+        return data
 
-    def mediaMenu(self, to):
+    def mediaMenu(self):
         data = {
-"type": "flex",
-"altText": "Media Menu",
-"contents": {
   "type": "bubble",
   "body": {
     "type": "box",
@@ -990,14 +965,11 @@ class Mobanzu(threading.Thread):
     "paddingAll": "0px",
     "height": "375px"
   }
-}}
-        self.sendTemplate(to, data)
+}
+        return data
 
-    def serviceMenu(self, to):
+    def serviceMenu(self):
         data = {
-"type": "flex",
-"altText": "Service Menu",
-"contents": {
   "type": "bubble",
   "body": {
     "type": "box",
@@ -1095,14 +1067,11 @@ class Mobanzu(threading.Thread):
     "paddingAll": "0px",
     "height": "200px"
   }
-}}
-        self.sendTemplate(to, data)
+}
+        return data
 
-    def systemMenu(self, to):
+    def systemMenu(self):
         data = {
-"type": "flex",
-"altText": "System Menu",
-"contents": {
   "type": "bubble",
   "body": {
     "type": "box",
@@ -1253,14 +1222,11 @@ class Mobanzu(threading.Thread):
     "paddingAll": "0px",
     "height": "287px"
   }
-}}
-        self.sendTemplate(to, data)
+}
+        return data
 
-    def forumMenu(self, to):
+    def forumMenu(self):
         data = {
-"type": "flex",
-"altText": "Forum Menu",
-"contents": {
   "type": "bubble",
   "body": {
     "type": "box",
@@ -1379,5 +1345,5 @@ class Mobanzu(threading.Thread):
     "paddingAll": "0px",
     "height": "243px"
   }
-}}
-        self.sendTemplate(to, data)
+}
+        return data
