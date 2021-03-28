@@ -5,9 +5,7 @@
 ┗━━━━━━━━━━━━━━━━━
 '''
 
-from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
-import requests, threading, json
-
+import threading
 class Mobanzu(threading.Thread):
     def __init__(self, client):
         self.client = client
