@@ -5,8 +5,7 @@
 ┗━━━━━━━━━━━━━━━━━
 '''
 
-import threading
-class Mobanzu(threading.Thread):
+class Mobanzu(object):
     def __init__(self, client):
         self.client = client
 
