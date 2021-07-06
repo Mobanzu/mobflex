@@ -6,7 +6,7 @@
 '''
 
 from linepy import *
-from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
+from akad.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
 from template import Mobanzu
 import requests, uvloop, json, threading, asyncio, livejson
 
