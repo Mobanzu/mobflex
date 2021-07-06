@@ -7,7 +7,7 @@
 
 from linepy import *
 from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
-from mobanzu import Mobanzu
+from template import Mobanzu
 import requests, uvloop, json, threading, asyncio, livejson
 
 client = LINE("EMAIL", "PASSWORD") #USE_YOUR_EMAIL_AND_PASSWORD
