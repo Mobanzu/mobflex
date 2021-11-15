@@ -23,7 +23,7 @@ def allow_liff():
     headers = {
         'X-Line-Access': client.authToken,
         'X-Line-Application': client.server.APP_NAME,
-        'X-Line-ChannelId': 'CHANNEL_ID', #USE_YOUR_CHANNEL_ID
+        'X-Line-ChannelId': '1655425084',
         'Content-Type': 'application/json'
     }
     requests.post(url, json=data, headers=headers)
@@ -31,7 +31,7 @@ def allow_liff():
 def sendTemplate(to, data):
     drex = LiffChatContext(to)
     mobz = LiffContext(chat=drex)
-    view = LiffViewRequest('LIFF_ID', mobz) #USE_YOUR_LIFF_ID
+    view = LiffViewRequest('1655425084-3OQ8Mn9J', mobz)
     token = client.liff.issueLiffView(view)
     url = 'https://api.line.me/message/v3/share'
     headers = {
