@@ -52,7 +52,7 @@ class Mobanzu(object):
                 "action": {
                   "type": "uri",
                   "label": "P R O F I L E",
-                  "uri": "line://app/LIFF_ID?type=text&text=profile" #USE_YOUR_LIFF_ID
+                  "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=profile"
                 },
                 "height": "sm",
                 "style": "primary",
@@ -70,7 +70,7 @@ class Mobanzu(object):
                 "action": {
                   "type": "uri",
                   "label": "G R O U P",
-                  "uri": "line://app/LIFF_ID?type=text&text=group" #USE_YOUR_LIFF_ID
+                  "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=group"
                 },
                 "height": "sm",
                 "style": "primary",
@@ -88,7 +88,7 @@ class Mobanzu(object):
                 "action": {
                   "type": "uri",
                   "label": "M E D I A",
-                  "uri": "line://app/LIFF_ID?type=text&text=media" #USE_YOUR_LIFF_ID
+                  "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=media"
                 },
                 "height": "sm",
                 "style": "primary",
@@ -106,7 +106,7 @@ class Mobanzu(object):
                 "action": {
                   "type": "uri",
                   "label": "S E R V I C E",
-                  "uri": "line://app/LIFF_ID?type=text&text=service" #USE_YOUR_LIFF_ID
+                  "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=service"
                 },
                 "height": "sm",
                 "style": "primary",
@@ -124,7 +124,7 @@ class Mobanzu(object):
                 "action": {
                   "type": "uri",
                   "label": "S Y S T E M",
-                  "uri": "line://app/LIFF_ID?type=text&text=system" #USE_YOUR_LIFF_ID
+                  "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=system"
                 },
                 "height": "sm",
                 "style": "primary",
@@ -142,7 +142,7 @@ class Mobanzu(object):
                 "action": {
                   "type": "uri",
                   "label": "F O R U M",
-                  "uri": "line://app/LIFF_ID?type=text&text=forum" #USE_YOUR_LIFF_ID
+                  "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=forum"
                 },
                 "height": "sm",
                 "style": "primary",
@@ -235,7 +235,7 @@ class Mobanzu(object):
             "action": {
               "type": "uri",
               "label": "Profile Button",
-              "uri": "line://app/LIFF_ID?type=text&text=profile" #USE_YOUR_LIFF_ID
+              "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=profile"
             }
           },
           {
@@ -247,7 +247,7 @@ class Mobanzu(object):
             "action": {
               "type": "uri",
               "label": "Group Button",
-              "uri": "line://app/LIFF_ID?type=text&text=group" #USE_YOUR_LIFF_ID
+              "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=group"
             }
           },
           {
@@ -259,7 +259,7 @@ class Mobanzu(object):
             "action": {
               "type": "uri",
               "label": "Media Button",
-              "uri": "line://app/LIFF_ID?type=text&text=media" #USE_YOUR_LIFF_ID
+              "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=media"
             }
           },
           {
@@ -271,7 +271,7 @@ class Mobanzu(object):
             "action": {
               "type": "uri",
               "label": "Service Button",
-              "uri": "line://app/LIFF_ID?type=text&text=service" #USE_YOUR_LIFF_ID
+              "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=service"
             }
           },
           {
@@ -283,7 +283,7 @@ class Mobanzu(object):
             "action": {
               "type": "uri",
               "label": "System Button",
-              "uri": "line://app/LIFF_ID?type=text&text=system" #USE_YOUR_LIFF_ID
+              "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=system"
             }
           },
           {
@@ -295,7 +295,7 @@ class Mobanzu(object):
             "action": {
               "type": "uri",
               "label": "Forum Button",
-              "uri": "line://app/LIFF_ID?type=text&text=forum" #USE_YOUR_LIFF_ID
+              "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=forum"
             }
           }
         ],
@@ -358,7 +358,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "timeline",
-                      "uri": "line://app/LIFF_ID?type=text&text=timeline" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=timeline"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -378,7 +378,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "steal",
-                      "uri": "line://app/LIFF_ID?type=text&text=steal" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=steal"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -389,7 +389,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "mymid",
-                      "uri": "line://app/LIFF_ID?type=text&text=mymid" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=mymid"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -410,7 +410,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "mybio",
-                      "uri": "line://app/LIFF_ID?type=text&text=mybio" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=mybio"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -421,7 +421,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "mypict",
-                      "uri": "line://app/LIFF_ID?type=text&text=mypict" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=mypict"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -442,7 +442,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "myvideo",
-                      "uri": "line://app/LIFF_ID?type=text&text=myvideo" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=myvideo"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -453,7 +453,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "mycover",
-                      "uri": "line://app/LIFF_ID?type=text&text=mycover" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=mycover"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -474,7 +474,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "mycontact",
-                      "uri": "line://app/LIFF_ID?type=text&text=mycontact" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=mycontact"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -485,7 +485,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "me",
-                      "uri": "line://app/LIFF_ID?type=text&text=me" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=me"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -598,7 +598,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "mentionall",
-                      "uri": "line://app/LIFF_ID?type=text&text=mentionall" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=mentionall"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -618,7 +618,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "gid",
-                      "uri": "line://app/LIFF_ID?type=text&text=gid" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=gid"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -629,7 +629,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "gname",
-                      "uri": "line://app/LIFF_ID?type=text&text=gname" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=gname"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -650,7 +650,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "gpict",
-                      "uri": "line://app/LIFF_ID?type=text&text=gpict" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=gpict"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -661,7 +661,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "getid",
-                      "uri": "line://app/LIFF_ID?type=text&text=getid" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=getid"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -682,7 +682,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "memberlist",
-                      "uri": "line://app/LIFF_ID?type=text&text=memberlist" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=memberlist"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -703,7 +703,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "pendinglist",
-                      "uri": "line://app/LIFF_ID?type=text&text=pendinglist" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=pendinglist"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -837,7 +837,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "media:info",
-                      "uri": "line://app/LIFF_ID?type=text&text=media:info" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=media:info"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -857,7 +857,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "media:funny",
-                      "uri": "line://app/LIFF_ID?type=text&text=media:funny" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=media:funny"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -878,7 +878,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "media:search",
-                      "uri": "line://app/LIFF_ID?type=text&text=media:search" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=media:search"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -899,7 +899,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "media:result",
-                      "uri": "line://app/LIFF_ID?type=text&text=media:result" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=media:result"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -920,7 +920,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "media:social",
-                      "uri": "line://app/LIFF_ID?type=text&text=media:social" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=media:social"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1012,7 +1012,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "token",
-                      "uri": "line://app/LIFF_ID?type=text&text=token" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=token"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1023,7 +1023,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "broadcast",
-                      "uri": "line://app/LIFF_ID?type=text&text=broadcast" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=broadcast"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1114,7 +1114,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "debug",
-                      "uri": "line://app/LIFF_ID?type=text&text=debug" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=debug"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1125,7 +1125,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "storage",
-                      "uri": "line://app/LIFF_ID?type=text&text=storage" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=storage"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1145,7 +1145,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "speed",
-                      "uri": "line://app/LIFF_ID?type=text&text=speed" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=speed"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1156,7 +1156,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "timeleft",
-                      "uri": "line://app/LIFF_ID?type=text&text=timeleft" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=timeleft"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1177,7 +1177,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "about",
-                      "uri": "line://app/LIFF_ID?type=text&text=about" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=about"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1269,7 +1269,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "info",
-                      "uri": "line://app/LIFF_ID?type=text&text=info" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=info"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
@@ -1280,7 +1280,7 @@ class Mobanzu(object):
                     "action": {
                       "type": "uri",
                       "label": "creator",
-                      "uri": "line://app/LIFF_ID?type=text&text=creator" #USE_YOUR_LIFF_ID
+                      "uri": "line://app/1655425084-3OQ8Mn9J?type=text&text=creator"
                     },
                     "height": "sm",
                     "color": "#0f222f60",
